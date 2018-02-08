@@ -1,0 +1,64 @@
+div,ul,li,h2{margin:0; padding:0}
+li{list-style:none;}
+body{font-family:"黑体";}
+
+#top{ width: 100%;  background:#F0761C; padding: 0 4%;}
+#top ul{height: 60px; display:flex; justify-content:space-between; align-items:center;}
+#top ul li{color:#eee; font-size:2em; letter-spacing:2px; text-shadow:0 0 2px #333;}
+
+#main{ background: #EDEDED;}
+#main dl.chef{display: flex; padding: 0 2%; }
+#main dl.chef dt{ width: 30%;}
+#main dl.chef dd{ width: 68%; padding:2% 0 0 4%;}
+#main dl.chef dt img{ width: 100%; margin-top:8%;}
+#main dl.chef dd span{display:block;}
+#main dl.chef dd span:first-child{font-size:1.5em;}
+#main dl.chef dd span:nth-child(2){color:#94908B;}
+
+#main .comment{ background-image: linear-gradient(to bottom, rgba(200,200,200,1) 0%, rgba(229,229,229,.5) 16%, rgba(237,237,237,.5) 98%);}
+#main .comment .star{padding:8% 2% 0 2%; display:flex; flex-flow:row wrap; justify-content:space-between; }
+#main .comment .star dl{display:flex;  color:#76736E;}
+#main .comment .star dl span{color:#B4C8D8; text-shadow: 1px 0 2px #7A858F;}
+#main .comment .pics ul{display:flex; flex-flow:wrap; justify-content:space-between; padding: 0 2%;}
+#main .comment .pics ul li{width:32%; margin-bottom:2%;}
+#main .comment .pics ul li img{ width: 100%;}
+
+#main .user{margin-top:4%; padding:0 2%; display:flex;}
+#main .user div:first-child{margin-right:2%;}
+#main .user div:first-child img{ width: 98%;}
+#main .user div:nth-child(2){background:#F7F6F5; box-shadow:0 0 2px #999; margin-bottom:8%;}
+#main .user div:nth-child(2) dl{ padding:2%;}
+#main .user div:nth-child(2) dt{display:flex; justify-content: space-between;}
+#main .user div:nth-child(2) dt h2{font-size:1.2em; color:#333; font-weight:bold;}
+#main .user div:nth-child(2) dt span{color:#868686;}
+#main .user div:nth-child(2) dl dd{color:#666; font-size:1.1em; margin-top:2%;}
+
+
+
+
+
+
+
+
+
+
+@media(min-width:375px){/*iphone6*/
+    #main dl.chef dd span{font-size:1.16em;}
+    #main .comment .star{font-size:1.14em;}
+}
+
+@media(min-width:414px){/*iphone6/7 plus*/
+    #main dl.chef dd span{font-size:1.25em;}
+    #main .comment .star{font-size:1.2em;}
+}
+
+
+
+
+
+
+
+
+
+
+
